@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CodeTemplates\" />
+    <None Remove="CodeTemplates\CSharpDbContext\" />
+    <None Remove="CodeTemplates\CSharpEntityType\" />
+    <None Remove="CodeTemplates\CSharpDbContext\Partials\" />
+    <None Remove="CodeTemplates\CSharpEntityType\Partials\" />
+    <None Remove="Contexts\" />
+    <None Remove="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CodeTemplates\" />
+    <Folder Include="CodeTemplates\CSharpDbContext\" />
+    <Folder Include="CodeTemplates\CSharpEntityType\" />
+    <Folder Include="CodeTemplates\CSharpDbContext\Partials\" />
+    <Folder Include="CodeTemplates\CSharpEntityType\Partials\" />
+    <Folder Include="Contexts\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore\NetCore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFrameworkCore.Scaffolding.Handlebars" Version="6.0.3" />
+    <PackageReference Include="URF.Core.EF.Trackable" Version="6.1.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.19">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

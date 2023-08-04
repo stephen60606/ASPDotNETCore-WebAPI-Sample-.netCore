@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/DemoWebAPI/DemoWebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Interface/Demo.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Interface/Demo.Interface.csproj",
+        "projectName": "Demo.Interface",
+        "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Interface/Demo.Interface.csproj",
+        "packagesPath": "/Users/stephen/.nuget/packages/",
+        "outputPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stephen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Entities/Entities.csproj": {
+                "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.411/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/DemoWebAPI/DemoWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/DemoWebAPI/DemoWebAPI.csproj",
+        "projectName": "DemoWebAPI",
+        "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/DemoWebAPI/DemoWebAPI.csproj",
+        "packagesPath": "/Users/stephen/.nuget/packages/",
+        "outputPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/DemoWebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stephen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Interface/Demo.Interface.csproj": {
+                "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Interface/Demo.Interface.csproj"
+              },
+              "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj": {
+                "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.411/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Entities/Entities.csproj",
+        "packagesPath": "/Users/stephen/.nuget/packages/",
+        "outputPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stephen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj": {
+                "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFrameworkCore.Scaffolding.Handlebars": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "URF.Core.EF.Trackable": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.411/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj",
+        "projectName": "NetCore",
+        "projectPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj",
+        "packagesPath": "/Users/stephen/.nuget/packages/",
+        "outputPath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stephen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.CommonServiceLocator": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.411/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

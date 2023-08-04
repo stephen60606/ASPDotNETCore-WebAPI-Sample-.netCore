@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{0CB31DDA-2B83-45E9-924A-3EC942F870FD}|NetCore.WebHost">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Webhost/Startup.cs" relfile="Webhost/Startup.cs" line="54" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.NetCore.Webhost PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CoreLib.NetCore PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Demo.Interface/Demo.Service/Demo.Service.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo.Interface/obj/Debug/net6.0/Demo.Interface.AssemblyInfo.cs">
+    <Files>
+      <File FileName="Entities/AutofacModule.cs" Line="29" Column="1" />
+      <File FileName="Webhost/appsettings.json" Line="12" Column="95" />
+      <File FileName="Webhost/Startup.cs" Line="71" Column="1" />
+      <File FileName="Webhost/Properties/launchSettings.json" Line="30" Column="2" />
+      <File FileName="Demo.Service/UserService.cs" Line="1" Column="1" />
+      <File FileName="DemoWebAPI/DemoController.cs" Line="23" Column="10" />
+      <File FileName="Webhost/Program.cs" Line="1" Column="1" />
+      <File FileName="Demo.Interface/obj/Debug/net6.0/Demo.Interface.AssemblyInfo.cs" Line="13" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NetCore.Webhost" expanded="True">
+            <Node name="FeatureModule" expanded="True">
+              <Node name="Module.Demo" expanded="True">
+                <Node name="Demo.Interface" expanded="True" />
+                <Node name="Demo.Service" selected="True" />
+              </Node>
+            </Node>
+            <Node name="WebAPI" expanded="True" />
+            <Node name="NetCore.Webhost" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

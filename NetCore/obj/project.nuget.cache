@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "cAbcYsVTDwS/NctL/EDC8QJYwunBtwXXbZIymAnnF0GIqiAV91erXw3SB6DHYk3/RFR1afIS9o2w950/heqgaA==",
+  "success": true,
+  "projectFilePath": "/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/NetCore/NetCore.csproj",
+  "expectedPackageFiles": [
+    "/Users/stephen/.nuget/packages/autofac/7.0.1/autofac.7.0.1.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/autofac.extras.commonservicelocator/6.1.0/autofac.extras.commonservicelocator.6.1.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/autofac.extras.dynamicproxy/7.1.0/autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/commonservicelocator/2.0.7/commonservicelocator.2.0.7.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/nlog/5.2.2/nlog.5.2.2.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.runtime.caching/6.0.0/system.runtime.caching.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
+    "/Users/stephen/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

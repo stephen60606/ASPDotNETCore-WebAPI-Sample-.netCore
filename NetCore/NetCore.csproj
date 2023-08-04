@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.1.0" />
+    <PackageReference Include="NLog" Version="5.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="System.Runtime.Caching" Version="6.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Exceptions\" />
+    <None Remove="Extensions\" />
+    <None Remove="WebContext\" />
+    <None Remove="Helpers\" />
+    <None Remove="Logging\" />
+    <None Remove="WebAPI\" />
+    <None Remove="WebAPI\Middlewares\" />
+    <None Remove="WebAPI\Models\" />
+    <None Remove="WebAPI\Interfaces\" />
+    <None Remove="WebAPI\Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="WebContext\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Logging\" />
+    <Folder Include="WebAPI\" />
+    <Folder Include="WebAPI\Middlewares\" />
+    <Folder Include="WebAPI\Models\" />
+    <Folder Include="WebAPI\Interfaces\" />
+    <Folder Include="WebAPI\Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Properties\launchSettings.json">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
