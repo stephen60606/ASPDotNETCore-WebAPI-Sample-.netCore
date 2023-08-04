@@ -86,7 +86,8 @@ namespace NetCore.WebAPI.Middlewares
                     try
                     {
                         await next(context);
-                        //TODO: interceptor for AOP
+
+                        //TODO : interceptor for AOP
                     }
                     catch (Exception e)
                     {

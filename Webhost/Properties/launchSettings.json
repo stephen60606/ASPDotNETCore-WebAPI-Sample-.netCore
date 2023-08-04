@@ -20,7 +20,7 @@
     "NetCore.WebHost": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:19187",
+      "applicationUrl": "http://localhost:19748",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

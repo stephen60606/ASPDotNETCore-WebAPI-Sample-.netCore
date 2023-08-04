@@ -10,8 +10,8 @@ namespace NetCore
         /// <summary>
         /// Enumerable run foreach
         /// </summary>
-        /// <param name="enumeration">Enumerable 物件</param>
-        /// <param name="action">執行函數</param>
+        /// <param name="enumeration">Enumerable object</param>
+        /// <param name="action">execute function</param>
         public static void ForEach<T>(this IEnumerable<T> enumeration, Action<T> action)
         {
             foreach (T item in enumeration)

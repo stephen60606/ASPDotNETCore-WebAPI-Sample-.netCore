@@ -25,7 +25,7 @@
     <ProjectReference Include="..\Entities\Entities.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\DemoWebAPI\Demo.WebAPI.csproj">
+    <ProjectReference Include="..\DemoWebAPI\DemoWebAPI.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

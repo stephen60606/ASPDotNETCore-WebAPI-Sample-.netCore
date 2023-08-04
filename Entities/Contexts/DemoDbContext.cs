@@ -35,6 +35,18 @@ if (!optionsBuilder.IsConfigured)
                     .HasMaxLength(50)
                     .HasColumnName("ACCOUNT");
 
+                entity.Property(e => e.CreateBy)
+                    .HasMaxLength(20)
+                    .HasColumnName("CREATE_BY");
+
+                entity.Property(e => e.CreateDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("CREATE_DATE");
+
+                entity.Property(e => e.Email)
+                    .HasMaxLength(50)
+                    .HasColumnName("EMAIL");
+
                 entity.Property(e => e.Name)
                     .HasMaxLength(50)
                     .HasColumnName("NAME");
@@ -42,6 +54,14 @@ if (!optionsBuilder.IsConfigured)
                 entity.Property(e => e.Password)
                     .HasMaxLength(50)
                     .HasColumnName("PASSWORD");
+
+                entity.Property(e => e.UpdateBy)
+                    .HasMaxLength(20)
+                    .HasColumnName("UPDATE_BY");
+
+                entity.Property(e => e.UpdateDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("UPDATE_DATE");
             });
 
             OnModelCreatingPartial(modelBuilder);

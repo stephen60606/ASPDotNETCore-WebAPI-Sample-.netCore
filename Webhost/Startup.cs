@@ -44,6 +44,7 @@ namespace NetCore.WebHost
                     options.SerializerSettings.DateFormatString = "yyyy'/'MM'/'dd HH':'mm':'ss.FFFFFFFK";
                 });
 
+
             Directory.GetFiles(AppContext.BaseDirectory, "*.dll")
                 .Where(x => x.Contains("WebAPI")).ToList()
                 .Select(path => Assembly.LoadFrom(path))
@@ -127,6 +128,7 @@ namespace NetCore.WebHost
             }
             #endregion Swagger
 
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -176,6 +178,7 @@ namespace NetCore.WebHost
 
             #endregion Modules
 
+
             #region Logging
 
             assemblies.Where(x => x.Name.Contains("Plugins")).ToList()
@@ -187,6 +190,7 @@ namespace NetCore.WebHost
             builder.RegisterType<Plugin.NLog.NLogProvider>().As<ILogProvider>();
 
             #endregion Logging
+
 
             builder.RegisterBuildCallback(c => ServiceLocator.SetLocatorProvider(() => new AutofacServiceLocator(c)));
         }

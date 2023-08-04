@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{0CB31DDA-2B83-45E9-924A-3EC942F870FD}|NetCore.WebHost">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Webhost/Startup.cs" relfile="Webhost/Startup.cs" line="54" column="1" />
+      <Breakpoint file="/Users/stephen/Documents/GitHub/dotnet_api_basic_structure/Demo.Service/UserService.cs" relfile="Demo.Service/UserService.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.NetCore.Webhost PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
@@ -11,29 +11,57 @@
   <DisabledProjects>
     <String>Demo.Interface/Demo.Service/Demo.Service.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Demo.Interface/obj/Debug/net6.0/Demo.Interface.AssemblyInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetCore/WebAPI/Controllers/APIController.cs">
     <Files>
       <File FileName="Entities/AutofacModule.cs" Line="29" Column="1" />
-      <File FileName="Webhost/appsettings.json" Line="12" Column="95" />
-      <File FileName="Webhost/Startup.cs" Line="71" Column="1" />
+      <File FileName="Webhost/appsettings.json" Line="24" Column="39" />
+      <File FileName="Webhost/Startup.cs" Line="116" Column="28" />
       <File FileName="Webhost/Properties/launchSettings.json" Line="30" Column="2" />
-      <File FileName="Demo.Service/UserService.cs" Line="1" Column="1" />
-      <File FileName="DemoWebAPI/DemoController.cs" Line="23" Column="10" />
-      <File FileName="Webhost/Program.cs" Line="1" Column="1" />
-      <File FileName="Demo.Interface/obj/Debug/net6.0/Demo.Interface.AssemblyInfo.cs" Line="13" Column="12" />
+      <File FileName="Demo.Service/UserService.cs" Line="21" Column="1" />
+      <File FileName="Webhost/Program.cs" Line="9" Column="1" />
+      <File FileName="DemoWebAPI/DemoController.cs" Line="19" Column="9" />
+      <File FileName="Entities/ScaffoldingDesignTimeServices.cs" Line="1" Column="1" />
+      <File FileName="Entities/IDemoUnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="NetCore/WebContext/WebContext.cs" Line="1" Column="1" />
+      <File FileName="NetCore/WebAPI/Middlewares/SetDefautMiddleware.cs" Line="13" Column="9" />
+      <File FileName="Webhost/GetConfigurations.cs" Line="1" Column="1" />
+      <File FileName="Entities/Models/UserDetail.cs" Line="25" Column="37" />
+      <File FileName="Entities/Contexts/DemoDbContext.cs" Line="9" Column="6" />
+      <File FileName="Entities/DemoUnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="NetCore/WebAPI/Middlewares/WebAPIExceptionHandler.cs" Line="35" Column="13" />
+      <File FileName="NetCore/WebAPI/Interfaces/IAutofacModule.cs" Line="1" Column="1" />
+      <File FileName="NetCore/WebAPI/Controllers/APIController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NetCore.Webhost" expanded="True">
+            <Node name="CoreLib" expanded="True">
+              <Node name="NetCore" expanded="True" />
+            </Node>
+            <Node name="Entities" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
             <Node name="FeatureModule" expanded="True">
               <Node name="Module.Demo" expanded="True">
                 <Node name="Demo.Interface" expanded="True" />
-                <Node name="Demo.Service" selected="True" />
+                <Node name="Demo.Service" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="WebAPI" expanded="True" />
-            <Node name="NetCore.Webhost" expanded="True" />
+            <Node name="WebAPI" expanded="True">
+              <Node name="Demo.WebAPI" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="ProjectDependencies" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="NetCore.Webhost" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

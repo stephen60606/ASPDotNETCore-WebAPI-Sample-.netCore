@@ -9,12 +9,23 @@ namespace Entities.Models
     public partial class UserDetail : Entity
     {
 public UserDetail()
-{}
+{
+    CartInfos = new HashSet<CartInfo>
+    ();
+     }
 
 public int Id { get; set; }
 public string? Account { get; set; }
+public string? Email { get; set; }
 public string? Name { get; set; }
 public string? Password { get; set; }
+public string? UpdateBy { get; set; }
+public DateTime? UpdateDate { get; set; }
+public string? CreateBy { get; set; }
+public DateTime? CreateDate { get; set; }
+
+public virtual ICollection<CartInfo>
+    CartInfos { get; set; } = default!;
     }
 #endregion
 
@@ -23,8 +34,13 @@ public string? Password { get; set; }
     {
 public int Id { get; set; }
 public string? Account { get; set; }
+public string? Email { get; set; }
 public string? Name { get; set; }
 public string? Password { get; set; }
+public string? UpdateBy { get; set; }
+public DateTime? UpdateDate { get; set; }
+public string? CreateBy { get; set; }
+public DateTime? CreateDate { get; set; }
     }
 #endregion
 }
