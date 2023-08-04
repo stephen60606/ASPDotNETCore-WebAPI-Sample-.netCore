@@ -39,6 +39,15 @@ dotnet ef dbcontext scaffold "server=localhost;Port=3306;Database=Demo_db; User=
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Here is my DB Schema of mysql for this basic project:
+
+
+<img width="613" alt="Screenshot 2023-08-05 at 2 33 49 AM" src="https://github.com/stephen60606/dotnet_api_basic_structure/assets/131985111/892f67b4-92b4-4bb7-a3a0-cd0a07b87a9e">
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
