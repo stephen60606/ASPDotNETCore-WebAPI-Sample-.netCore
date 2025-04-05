@@ -32,10 +32,10 @@ dotnet add package Pomelo.EntityFrameworkCore.MySql
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
 //MySql
-dotnet ef dbcontext scaffold "server=localhost;Port=3306;Database=Demo_db; User=root;Password=password666;" "Pomelo.EntityFrameworkCore.MySql"  --output-dir Models --context-dir Contexts --context DemoDbContext -f
+dotnet ef dbcontext scaffold "server=localhost;Port=3306;Database=Demo_db; User=___;Password=___;" "Pomelo.EntityFrameworkCore.MySql"  --output-dir Models --context-dir Contexts --context DemoDbContext -f
 
 //MSSql
- dotnet ef dbcontext scaffold "Data Source=10.20.30.44;Initial Catalog=Ins_Stage2; Persist Security Info=True;User ID=LIneBank;Password=P@ssw0rd" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context-dir Contexts --context DemoDbContext -f
+ dotnet ef dbcontext scaffold "Data Source=___;Initial Catalog=___; Persist Security Info=True;User ID=___;Password=___" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context-dir Contexts --context DemoDbContext -f
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
